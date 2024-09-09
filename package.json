@@ -1,15 +1,20 @@
 {
   "name": "chai-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "a backend at chai and code channal",
+  "description": "a backend at chai and code channel",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Malik Codes",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
